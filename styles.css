@@ -16,7 +16,7 @@ body {
   align-items: center;
   background-image: url("images/bg5.jpg");
   background-color: rgb(192, 207, 216);
-  backdrop-filter: blur(0px);
+  
 }
 
 .title h1 {
