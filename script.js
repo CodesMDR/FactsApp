@@ -4,7 +4,7 @@ const container = document.querySelector(".container");
 
 let newItem = () => {
   setTimeout(() => {
-    fetch("https://api.api-ninjas.com/v1/facts?limit=1", {
+    fetch("https://api.api-ninjas.com/v1/facts", {
       headers: { "X-Api-Key": "xIEFntgxDtuFjzfICe1x7g==z6wQuXIRLKePetzG" },
     })
       .then((res) => res.json())
